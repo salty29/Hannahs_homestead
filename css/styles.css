@@ -1,0 +1,21 @@
+body{
+	background-color: whitesmoke;
+}
+
+h1{
+	font-size: 40px;
+	color: #A569BD;
+}
+h2{
+	font-size: 20px;
+	color: Fuchsia;
+}
+.big{
+	font-size: 60;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.strike{
+	text-decoration: line-through;
+}
