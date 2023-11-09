@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #A569BD;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -24,7 +24,7 @@
         }
 
         nav {
-            background-color: #5DADE2;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -38,7 +38,7 @@
         }
 
         .menu button {
-            background-color: #5DADE2; /* Matching the header color */
+            background-color: #333; /* Matching the header color */
             font-size: 20px;
             color: #fff;
             border: none;
@@ -63,10 +63,6 @@
             flex: 0 0 33.33%; /* 3 columns in a row */
             padding: 10px;
             box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center items horizontally */
-            text-align: center;
         }
 
         .column img {
@@ -75,16 +71,19 @@
         }
 
         .label {
-            background-color: #fff;
-            color: #333;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
             padding: 5px 10px;
             border-radius: 5px;
-            font-size: 16px;
-            margin-top: 10px; /* Adjust the top margin as needed */
+            font-size: 14px;
         }
 
         footer {
-            background-color: #A569BD;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -111,43 +110,43 @@
         <div class="row">
             <div class="column">
                 <div class="label">John</div>
-                <img src="img/total_beige_and_white.jpg" alt="John">   
+                <img src="img/total_beige_and_white.jpg" alt="Image 1">
             </div>
             <div class="column">
                 <div class="label">Paul</div>
-                <img src="img/beige_butt.jpg" alt="Paul">
+                <img src="img/baby_2.jpg" alt="Image 2">
             </div>
             <div class="column">
                 <div class="label">George</div>
-                <img src="img/barbara_yasmin_babies_1.jpg" alt="George">
+                <img src="img/barbara_yasmin_babies_1.jpg" alt="Image 3">
             </div>
         </div>
         <div class="row">
             <div class="column">
                 <div class="label">Ringo</div>
-                <img src="img/barbaras_beige_and_white.jpg" alt="Ringo">
+                <img src="img/barbaras_beige_and_white.jpg" alt="Image 4">
             </div>
             <div class="column">
                 <div class="label">James</div>
-                <img src="img/barbaras_beige_and_white_front_closeup.jpg" alt="James">  
+                <img src="img/barbaras_beige_and_white_front_closeup.jpg" alt="Image 5">
             </div>
             <div class="column">
                 <div class="label">Matthew</div>
-                <img src="img/barbaras_beige_and_white_plus_black_and_white.jpg" alt="Matthew">
+                <img src="img/barbaras_beige_and_white_plus_black_and_white.jpg" alt="Image 6">
             </div>
         </div>
         <div class="row">
             <div class="column">
                 <div class="label">Hannah</div>
-                <img src="img/beige_white.jpg" alt="Hannah">               
+                <img src="img/beige_white.jpg" alt="Image 7">
             </div>
             <div class="column">
                 <div class="label">Leah</div>
-                <img src="img/beige_white_brown.jpg" alt="Leah">               
+                <img src="img/beige_white_brown.jpg" alt="Image 8">
             </div>
             <div class="column">
                 <div class="label">Zac</div>
-                <img src="img/black_white.jpg" alt="Zac">
+                <img src="img/black_white.jpg" alt="Image 9">
             </div>
         </div>
     </div>
