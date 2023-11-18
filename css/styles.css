@@ -114,9 +114,11 @@ nav {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.8); /* Adjust the scale to make it 80% */
     z-index: 9999;
     transition: transform 0.3s ease-in-out;
+    max-width: 80%; /* Limit the maximum width to 80% of the viewport */
+    max-height: 80%; /* Limit the maximum height to 80% of the viewport */
 }
 
 /* Hide enlarged image by default */
