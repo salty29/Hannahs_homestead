@@ -110,6 +110,20 @@ nav {
     margin-top: 10px; /* Adjust the top margin as needed */
 }
 
+.enlarged {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hide enlarged image by default */
+.enlarged.hidden {
+    display: none;
+}
+
 footer {
     background-color: #A569BD;
     color: #fff;
