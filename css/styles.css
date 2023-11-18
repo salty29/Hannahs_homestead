@@ -62,9 +62,41 @@ nav {
     flex-direction: column;
     align-items: center; /* Center items horizontally */
     text-align: center;
+    border: 2px solid transparent; /* Default border with transparency */
+}
+
+/* Border properties for images */
+.column img {
+    border: 8px solid transparent; /* Default border with transparency */
+    border-radius: 10px; /* Border radius */
+}
+
+/* Light blue border class */
+.light-blue-border img {
+    border-color: lightblue;
+}
+
+/* Pink border class */
+.pink-border img {
+    border-color: pink;
+}
+
+.column2 {
+    flex: 0 0 50%; /* 3 columns in a row */
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center;
 }
 
 .column img {
+    max-width: 100%;
+    border-radius: 40px; /* Add rounded corners */
+}
+
+.column2 img {
     max-width: 100%;
     border-radius: 40px; /* Add rounded corners */
 }
