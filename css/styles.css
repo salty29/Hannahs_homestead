@@ -119,6 +119,7 @@ nav {
     transition: transform 0.3s ease-in-out;
     max-width: 90%; /* Limit the maximum width to 80% of the viewport */
     max-height: 90%; /* Limit the maximum height to 80% of the viewport */
+    border-radius: 40px; /* Add rounded corners */
 }
 
 /* Hide enlarged image by default */
@@ -132,4 +133,22 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: auto; /* Push the footer to the bottom */
+}
+
+/*From styles2.css*/
+.left-column {
+    flex: 2; /* Takes up 2/3 of the width */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.left-column p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.right-column {
+    flex: 1; /* Takes up 1/3 of the width */
+    box-sizing: border-box;
+    padding: 10px;
 }
